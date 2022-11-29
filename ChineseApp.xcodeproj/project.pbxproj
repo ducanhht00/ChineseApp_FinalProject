@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08238978C31554755081B7DD /* Pods_ChineseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C499EAAAF95E0DC3E7B32B0 /* Pods_ChineseApp.framework */; };
+		8E134EAC28FC5A8800CC32EA /* ChooseCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E134EAB28FC5A8800CC32EA /* ChooseCourseViewController.swift */; };
+		8E3E9C112927832200113DC0 /* shopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3E9C102927832200113DC0 /* shopViewController.swift */; };
+		8E44986A2924AC510039C4A9 /* LearnedWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4498692924AC510039C4A9 /* LearnedWordViewController.swift */; };
+		8E5C029E29353336000DFA1B /* 中国.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C029D29353335000DFA1B /* 中国.mp3 */; };
+		8E5C02A02935336E000DFA1B /* 美国.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C029F2935336E000DFA1B /* 美国.mp3 */; };
+		8E5C02A2293533AD000DFA1B /* 法国.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02A1293533AD000DFA1B /* 法国.mp3 */; };
+		8E5C02A4293533EE000DFA1B /* 中国人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02A3293533EE000DFA1B /* 中国人.mp3 */; };
+		8E5C02A62935348A000DFA1B /* 美国人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02A52935348A000DFA1B /* 美国人.mp3 */; };
+		8E5C02A8293534EF000DFA1B /* 韩国.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02A7293534EF000DFA1B /* 韩国.mp3 */; };
+		8E5C02AA29353515000DFA1B /* 韩国人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02A929353515000DFA1B /* 韩国人.mp3 */; };
+		8E5C02AC29353543000DFA1B /* 法国人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02AB29353543000DFA1B /* 法国人.mp3 */; };
+		8E5C02AE29353575000DFA1B /* 喜欢.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02AD29353575000DFA1B /* 喜欢.mp3 */; };
+		8E5C02B22935362C000DFA1B /* 女孩.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02B12935362C000DFA1B /* 女孩.mp3 */; };
+		8E5C02B429353674000DFA1B /* 吃.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02B329353674000DFA1B /* 吃.mp3 */; };
+		8E5C02B6293536A3000DFA1B /* 茶.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02B5293536A3000DFA1B /* 茶.mp3 */; };
+		8E5C02B8293536F9000DFA1B /* 酒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02B7293536F9000DFA1B /* 酒.mp3 */; };
+		8E5C02BA29353722000DFA1B /* 水.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02B929353722000DFA1B /* 水.mp3 */; };
+		8E5C02BC29353757000DFA1B /* 水果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02BB29353757000DFA1B /* 水果.mp3 */; };
+		8E5C02BE29353782000DFA1B /* 喝.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02BD29353782000DFA1B /* 喝.mp3 */; };
+		8E5C02C0293537A8000DFA1B /* 桃.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02BF293537A8000DFA1B /* 桃.mp3 */; };
+		8E5C02C2293537CC000DFA1B /* 梨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02C1293537CC000DFA1B /* 梨.mp3 */; };
+		8E5C02C429353801000DFA1B /* 男人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02C329353801000DFA1B /* 男人.mp3 */; };
+		8E5C02C629353CE6000DFA1B /* story2_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02C529353CE6000DFA1B /* story2_1.mp3 */; };
+		8E5C02C829353D3B000DFA1B /* story2_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02C729353D3B000DFA1B /* story2_2.mp3 */; };
+		8E5C02CA29353D91000DFA1B /* story2_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02C929353D91000DFA1B /* story2_3.mp3 */; };
+		8E5C02CC29353DC5000DFA1B /* story2_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02CB29353DC5000DFA1B /* story2_4.mp3 */; };
+		8E5C02CE29353E13000DFA1B /* story2_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02CD29353E13000DFA1B /* story2_5.mp3 */; };
+		8E5C02D029353E49000DFA1B /* story2_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02CF29353E49000DFA1B /* story2_6.mp3 */; };
+		8E5C02D229353E79000DFA1B /* story2_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02D129353E79000DFA1B /* story2_7.mp3 */; };
+		8E5C02D429353EC0000DFA1B /* story2_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02D329353EC0000DFA1B /* story2_8.mp3 */; };
+		8E68BF6E29254B7100192D83 /* MainPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68BF6D29254B7100192D83 /* MainPageCollectionViewCell.swift */; };
+		8E6A7724291F4BC200040BEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E6A7723291F4BC200040BEB /* GoogleService-Info.plist */; };
+		8E718D42291E355000CAA116 /* LessonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E718D41291E355000CAA116 /* LessonDetailViewController.swift */; };
+		8E718D44291E4C3F00CAA116 /* VocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E718D43291E4C3F00CAA116 /* VocabularyViewController.swift */; };
+		8E718D46291E4C9500CAA116 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E718D45291E4C9500CAA116 /* QuizViewController.swift */; };
+		8E718D48291E4EEF00CAA116 /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E718D47291E4EEF00CAA116 /* QuizResultViewController.swift */; };
+		8E76B9B728FE63720089FCAB /* AllModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E76B9B628FE63720089FCAB /* AllModel.swift */; };
+		8E9B91D0293172FC00D85E58 /* KnowledgeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B91CF293172FC00D85E58 /* KnowledgeCardViewController.swift */; };
+		8E9B91D22931780700D85E58 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B91D12931780700D85E58 /* CardCollectionViewCell.swift */; };
+		8EA50835292B56D400141739 /* TheoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA50834292B56D400141739 /* TheoryViewController.swift */; };
+		8EA50837292B571800141739 /* TheoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA50836292B571800141739 /* TheoryTableViewCell.swift */; };
+		8EA50839292B99C800141739 /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA50838292B99C800141739 /* ShopCollectionViewCell.swift */; };
+		8EA5083B292BB5D400141739 /* shop2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5083A292BB5D400141739 /* shop2CollectionViewCell.swift */; };
+		8EA5083D292BBE1F00141739 /* BuyPremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5083C292BBE1F00141739 /* BuyPremiumViewController.swift */; };
+		8EA5083F292BBFCB00141739 /* buyLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5083E292BBFCB00141739 /* buyLessonViewController.swift */; };
+		8ED0EDCE28F9336B00235A21 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0EDCD28F9336B00235A21 /* RegisterViewController.swift */; };
+		8ED0EDD028F9338900235A21 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0EDCF28F9338900235A21 /* LoginViewController.swift */; };
+		8ED0EDD228F9357600235A21 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0EDD128F9357600235A21 /* MainPageViewController.swift */; };
+		8ED35FD028F03D41000D527F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED35FCF28F03D41000D527F /* AppDelegate.swift */; };
+		8ED35FD228F03D41000D527F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED35FD128F03D41000D527F /* SceneDelegate.swift */; };
+		8ED35FD428F03D41000D527F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED35FD328F03D41000D527F /* ViewController.swift */; };
+		8ED35FD728F03D41000D527F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED35FD528F03D41000D527F /* Main.storyboard */; };
+		8ED35FD928F03D43000D527F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED35FD828F03D43000D527F /* Assets.xcassets */; };
+		8ED35FDC28F03D43000D527F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED35FDA28F03D43000D527F /* LaunchScreen.storyboard */; };
+		8EDC0CBE291BF3A700AC4154 /* rootFireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0CBD291BF3A700AC4154 /* rootFireBase.swift */; };
+		8EE516AC28FDBA3C00DA13EF /* ReviewPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE516AB28FDBA3C00DA13EF /* ReviewPageViewController.swift */; };
+		8EE516AE28FDBA5200DA13EF /* PersonalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE516AD28FDBA5200DA13EF /* PersonalPageViewController.swift */; };
+		8EEE6C03292723ED0045D0CD /* ChooseCourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEE6C02292723ED0045D0CD /* ChooseCourseTableViewCell.swift */; };
+		8EEE6C05292731550045D0CD /* VocabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEE6C04292731550045D0CD /* VocabTableViewCell.swift */; };
+		8EF67A8D29338B3900C7FD80 /* StoryLyricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF67A8C29338B3900C7FD80 /* StoryLyricViewController.swift */; };
+		8EF67A8F29338B8E00C7FD80 /* StoryMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF67A8E29338B8E00C7FD80 /* StoryMainViewController.swift */; };
+		8EF67A972933AC4800C7FD80 /* story1_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EF67A922933AC4800C7FD80 /* story1_5.mp3 */; };
+		8EF67A982933AC4800C7FD80 /* story1_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EF67A932933AC4800C7FD80 /* story1_2.mp3 */; };
+		8EF67A992933AC4800C7FD80 /* story1_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EF67A942933AC4800C7FD80 /* story1_4.mp3 */; };
+		8EF67A9A2933AC4800C7FD80 /* story1_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EF67A952933AC4800C7FD80 /* story1_3.mp3 */; };
+		8EF67A9B2933AC4800C7FD80 /* story1_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EF67A962933AC4800C7FD80 /* story1_1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C499EAAAF95E0DC3E7B32B0 /* Pods_ChineseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChineseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E134EAB28FC5A8800CC32EA /* ChooseCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCourseViewController.swift; sourceTree = "<group>"; };
+		8E3E9C102927832200113DC0 /* shopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopViewController.swift; sourceTree = "<group>"; };
+		8E4498692924AC510039C4A9 /* LearnedWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnedWordViewController.swift; sourceTree = "<group>"; };
+		8E5C029D29353335000DFA1B /* 中国.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "中国.mp3"; sourceTree = "<group>"; };
+		8E5C029F2935336E000DFA1B /* 美国.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "美国.mp3"; sourceTree = "<group>"; };
+		8E5C02A1293533AD000DFA1B /* 法国.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "法国.mp3"; sourceTree = "<group>"; };
+		8E5C02A3293533EE000DFA1B /* 中国人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "中国人.mp3"; sourceTree = "<group>"; };
+		8E5C02A52935348A000DFA1B /* 美国人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "美国人.mp3"; sourceTree = "<group>"; };
+		8E5C02A7293534EF000DFA1B /* 韩国.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "韩国.mp3"; sourceTree = "<group>"; };
+		8E5C02A929353515000DFA1B /* 韩国人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "韩国人.mp3"; sourceTree = "<group>"; };
+		8E5C02AB29353543000DFA1B /* 法国人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "法国人.mp3"; sourceTree = "<group>"; };
+		8E5C02AD29353575000DFA1B /* 喜欢.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "喜欢.mp3"; sourceTree = "<group>"; };
+		8E5C02B12935362C000DFA1B /* 女孩.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "女孩.mp3"; sourceTree = "<group>"; };
+		8E5C02B329353674000DFA1B /* 吃.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "吃.mp3"; sourceTree = "<group>"; };
+		8E5C02B5293536A3000DFA1B /* 茶.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "茶.mp3"; sourceTree = "<group>"; };
+		8E5C02B7293536F9000DFA1B /* 酒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "酒.mp3"; sourceTree = "<group>"; };
+		8E5C02B929353722000DFA1B /* 水.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "水.mp3"; sourceTree = "<group>"; };
+		8E5C02BB29353757000DFA1B /* 水果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "水果.mp3"; sourceTree = "<group>"; };
+		8E5C02BD29353782000DFA1B /* 喝.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "喝.mp3"; sourceTree = "<group>"; };
+		8E5C02BF293537A8000DFA1B /* 桃.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "桃.mp3"; sourceTree = "<group>"; };
+		8E5C02C1293537CC000DFA1B /* 梨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "梨.mp3"; sourceTree = "<group>"; };
+		8E5C02C329353801000DFA1B /* 男人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "男人.mp3"; sourceTree = "<group>"; };
+		8E5C02C529353CE6000DFA1B /* story2_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story2_1.mp3; sourceTree = "<group>"; };
+		8E5C02C729353D3B000DFA1B /* story2_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story2_2.mp3; sourceTree = "<group>"; };
+		8E5C02C929353D91000DFA1B /* story2_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story2_3.mp3; sourceTree = "<group>"; };
+		8E5C02CB29353DC5000DFA1B /* story2_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story2_4.mp3; sourceTree = "<group>"; };
+		8E5C02CD29353E13000DFA1B /* story2_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story2_5.mp3; sourceTree = "<group>"; };
+		8E5C02CF29353E49000DFA1B /* story2_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story2_6.mp3; sourceTree = "<group>"; };
+		8E5C02D129353E79000DFA1B /* story2_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story2_7.mp3; sourceTree = "<group>"; };
+		8E5C02D329353EC0000DFA1B /* story2_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story2_8.mp3; sourceTree = "<group>"; };
+		8E68BF6D29254B7100192D83 /* MainPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E6A7723291F4BC200040BEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E718D41291E355000CAA116 /* LessonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailViewController.swift; sourceTree = "<group>"; };
+		8E718D43291E4C3F00CAA116 /* VocabularyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyViewController.swift; sourceTree = "<group>"; };
+		8E718D45291E4C9500CAA116 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		8E718D47291E4EEF00CAA116 /* QuizResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
+		8E76B9B628FE63720089FCAB /* AllModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllModel.swift; sourceTree = "<group>"; };
+		8E9B91CF293172FC00D85E58 /* KnowledgeCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeCardViewController.swift; sourceTree = "<group>"; };
+		8E9B91D12931780700D85E58 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		8EA50834292B56D400141739 /* TheoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryViewController.swift; sourceTree = "<group>"; };
+		8EA50836292B571800141739 /* TheoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryTableViewCell.swift; sourceTree = "<group>"; };
+		8EA50838292B99C800141739 /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		8EA5083A292BB5D400141739 /* shop2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop2CollectionViewCell.swift; sourceTree = "<group>"; };
+		8EA5083C292BBE1F00141739 /* BuyPremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyPremiumViewController.swift; sourceTree = "<group>"; };
+		8EA5083E292BBFCB00141739 /* buyLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buyLessonViewController.swift; sourceTree = "<group>"; };
+		8ED0EDCD28F9336B00235A21 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8ED0EDCF28F9338900235A21 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8ED0EDD128F9357600235A21 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		8ED35FCC28F03D41000D527F /* ChineseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED35FCF28F03D41000D527F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8ED35FD128F03D41000D527F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8ED35FD328F03D41000D527F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8ED35FD628F03D41000D527F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ED35FD828F03D43000D527F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ED35FDB28F03D43000D527F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ED35FDD28F03D43000D527F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EDC0CBD291BF3A700AC4154 /* rootFireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootFireBase.swift; sourceTree = "<group>"; };
+		8EE516AB28FDBA3C00DA13EF /* ReviewPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPageViewController.swift; sourceTree = "<group>"; };
+		8EE516AD28FDBA5200DA13EF /* PersonalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageViewController.swift; sourceTree = "<group>"; };
+		8EEE6C02292723ED0045D0CD /* ChooseCourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCourseTableViewCell.swift; sourceTree = "<group>"; };
+		8EEE6C04292731550045D0CD /* VocabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabTableViewCell.swift; sourceTree = "<group>"; };
+		8EF67A8C29338B3900C7FD80 /* StoryLyricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryLyricViewController.swift; sourceTree = "<group>"; };
+		8EF67A8E29338B8E00C7FD80 /* StoryMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryMainViewController.swift; sourceTree = "<group>"; };
+		8EF67A922933AC4800C7FD80 /* story1_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story1_5.mp3; sourceTree = "<group>"; };
+		8EF67A932933AC4800C7FD80 /* story1_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story1_2.mp3; sourceTree = "<group>"; };
+		8EF67A942933AC4800C7FD80 /* story1_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story1_4.mp3; sourceTree = "<group>"; };
+		8EF67A952933AC4800C7FD80 /* story1_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story1_3.mp3; sourceTree = "<group>"; };
+		8EF67A962933AC4800C7FD80 /* story1_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story1_1.mp3; sourceTree = "<group>"; };
+		DE5D064A1F718D4B2093B877 /* Pods-ChineseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseApp.release.xcconfig"; path = "Target Support Files/Pods-ChineseApp/Pods-ChineseApp.release.xcconfig"; sourceTree = "<group>"; };
+		E312B15C6F64C9AA1FD6D936 /* Pods-ChineseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseApp.debug.xcconfig"; path = "Target Support Files/Pods-ChineseApp/Pods-ChineseApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED35FC928F03D41000D527F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08238978C31554755081B7DD /* Pods_ChineseApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BD0A2C156C823ECF93E030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C499EAAAF95E0DC3E7B32B0 /* Pods_ChineseApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38940A240DFAB9AF7E8C9A0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E312B15C6F64C9AA1FD6D936 /* Pods-ChineseApp.debug.xcconfig */,
+				DE5D064A1F718D4B2093B877 /* Pods-ChineseApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E45CA31291E81D30068E3F2 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				8EF67A912933AC2800C7FD80 /* story */,
+				8EF67A902933AC2000C7FD80 /* word */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		8E5C02AF2935357E000DFA1B /* Basic 1 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C02AD29353575000DFA1B /* 喜欢.mp3 */,
+				8E5C02AB29353543000DFA1B /* 法国人.mp3 */,
+				8E5C02A929353515000DFA1B /* 韩国人.mp3 */,
+				8E5C02A7293534EF000DFA1B /* 韩国.mp3 */,
+				8E5C02A52935348A000DFA1B /* 美国人.mp3 */,
+				8E5C02A3293533EE000DFA1B /* 中国人.mp3 */,
+				8E5C029F2935336E000DFA1B /* 美国.mp3 */,
+				8E5C029D29353335000DFA1B /* 中国.mp3 */,
+				8E5C02A1293533AD000DFA1B /* 法国.mp3 */,
+			);
+			path = "Basic 1";
+			sourceTree = "<group>";
+		};
+		8E5C02B0293535A2000DFA1B /* Basic 2 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C02C329353801000DFA1B /* 男人.mp3 */,
+				8E5C02C1293537CC000DFA1B /* 梨.mp3 */,
+				8E5C02BF293537A8000DFA1B /* 桃.mp3 */,
+				8E5C02BD29353782000DFA1B /* 喝.mp3 */,
+				8E5C02BB29353757000DFA1B /* 水果.mp3 */,
+				8E5C02B929353722000DFA1B /* 水.mp3 */,
+				8E5C02B7293536F9000DFA1B /* 酒.mp3 */,
+				8E5C02B5293536A3000DFA1B /* 茶.mp3 */,
+				8E5C02B329353674000DFA1B /* 吃.mp3 */,
+				8E5C02B12935362C000DFA1B /* 女孩.mp3 */,
+			);
+			path = "Basic 2";
+			sourceTree = "<group>";
+		};
+		8ED35FC328F03D41000D527F = {
+			isa = PBXGroup;
+			children = (
+				8ED35FCE28F03D41000D527F /* ChineseApp */,
+				8ED35FCD28F03D41000D527F /* Products */,
+				38940A240DFAB9AF7E8C9A0F /* Pods */,
+				10BD0A2C156C823ECF93E030 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED35FCD28F03D41000D527F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED35FCC28F03D41000D527F /* ChineseApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED35FCE28F03D41000D527F /* ChineseApp */ = {
+			isa = PBXGroup;
+			children = (
+				8ED35FCF28F03D41000D527F /* AppDelegate.swift */,
+				8ED35FD128F03D41000D527F /* SceneDelegate.swift */,
+				8ED35FE828F03DD2000D527F /* Model */,
+				8ED35FE528F03D82000D527F /* Controller */,
+				8ED35FE328F03D60000D527F /* View */,
+				8E45CA31291E81D30068E3F2 /* Sound */,
+				8ED35FD828F03D43000D527F /* Assets.xcassets */,
+				8E6A7723291F4BC200040BEB /* GoogleService-Info.plist */,
+				8ED35FDA28F03D43000D527F /* LaunchScreen.storyboard */,
+				8ED35FDD28F03D43000D527F /* Info.plist */,
+			);
+			path = ChineseApp;
+			sourceTree = "<group>";
+		};
+		8ED35FE328F03D60000D527F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8ED35FD528F03D41000D527F /* Main.storyboard */,
+				8E68BF6D29254B7100192D83 /* MainPageCollectionViewCell.swift */,
+				8EEE6C02292723ED0045D0CD /* ChooseCourseTableViewCell.swift */,
+				8EEE6C04292731550045D0CD /* VocabTableViewCell.swift */,
+				8EA50836292B571800141739 /* TheoryTableViewCell.swift */,
+				8EA50838292B99C800141739 /* ShopCollectionViewCell.swift */,
+				8EA5083A292BB5D400141739 /* shop2CollectionViewCell.swift */,
+				8E9B91D12931780700D85E58 /* CardCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8ED35FE528F03D82000D527F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8ED35FD328F03D41000D527F /* ViewController.swift */,
+				8ED0EDCD28F9336B00235A21 /* RegisterViewController.swift */,
+				8ED0EDCF28F9338900235A21 /* LoginViewController.swift */,
+				8ED0EDD128F9357600235A21 /* MainPageViewController.swift */,
+				8E134EAB28FC5A8800CC32EA /* ChooseCourseViewController.swift */,
+				8EE516AB28FDBA3C00DA13EF /* ReviewPageViewController.swift */,
+				8EE516AD28FDBA5200DA13EF /* PersonalPageViewController.swift */,
+				8E718D41291E355000CAA116 /* LessonDetailViewController.swift */,
+				8E718D43291E4C3F00CAA116 /* VocabularyViewController.swift */,
+				8E718D45291E4C9500CAA116 /* QuizViewController.swift */,
+				8E718D47291E4EEF00CAA116 /* QuizResultViewController.swift */,
+				8E4498692924AC510039C4A9 /* LearnedWordViewController.swift */,
+				8E3E9C102927832200113DC0 /* shopViewController.swift */,
+				8EA50834292B56D400141739 /* TheoryViewController.swift */,
+				8EA5083C292BBE1F00141739 /* BuyPremiumViewController.swift */,
+				8EA5083E292BBFCB00141739 /* buyLessonViewController.swift */,
+				8E9B91CF293172FC00D85E58 /* KnowledgeCardViewController.swift */,
+				8EF67A8C29338B3900C7FD80 /* StoryLyricViewController.swift */,
+				8EF67A8E29338B8E00C7FD80 /* StoryMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8ED35FE828F03DD2000D527F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E76B9B628FE63720089FCAB /* AllModel.swift */,
+				8EDC0CBD291BF3A700AC4154 /* rootFireBase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EF67A902933AC2000C7FD80 /* word */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C02AF2935357E000DFA1B /* Basic 1 */,
+				8E5C02B0293535A2000DFA1B /* Basic 2 */,
+			);
+			path = word;
+			sourceTree = "<group>";
+		};
+		8EF67A912933AC2800C7FD80 /* story */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C02D329353EC0000DFA1B /* story2_8.mp3 */,
+				8E5C02D129353E79000DFA1B /* story2_7.mp3 */,
+				8E5C02CF29353E49000DFA1B /* story2_6.mp3 */,
+				8E5C02CD29353E13000DFA1B /* story2_5.mp3 */,
+				8E5C02CB29353DC5000DFA1B /* story2_4.mp3 */,
+				8E5C02C929353D91000DFA1B /* story2_3.mp3 */,
+				8E5C02C729353D3B000DFA1B /* story2_2.mp3 */,
+				8E5C02C529353CE6000DFA1B /* story2_1.mp3 */,
+				8EF67A962933AC4800C7FD80 /* story1_1.mp3 */,
+				8EF67A932933AC4800C7FD80 /* story1_2.mp3 */,
+				8EF67A952933AC4800C7FD80 /* story1_3.mp3 */,
+				8EF67A942933AC4800C7FD80 /* story1_4.mp3 */,
+				8EF67A922933AC4800C7FD80 /* story1_5.mp3 */,
+			);
+			name = story;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED35FCB28F03D41000D527F /* ChineseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED35FE028F03D43000D527F /* Build configuration list for PBXNativeTarget "ChineseApp" */;
+			buildPhases = (
+				7DEFDC2B8B398A0CBFF58AC4 /* [CP] Check Pods Manifest.lock */,
+				8ED35FC828F03D41000D527F /* Sources */,
+				8ED35FC928F03D41000D527F /* Frameworks */,
+				8ED35FCA28F03D41000D527F /* Resources */,
+				0890DD9C6F127980D4FAC4BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseApp;
+			productName = ChineseApp;
+			productReference = 8ED35FCC28F03D41000D527F /* ChineseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED35FC428F03D41000D527F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8ED35FCB28F03D41000D527F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8ED35FC728F03D41000D527F /* Build configuration list for PBXProject "ChineseApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED35FC328F03D41000D527F;
+			productRefGroup = 8ED35FCD28F03D41000D527F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED35FCB28F03D41000D527F /* ChineseApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED35FCA28F03D41000D527F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF67A9B2933AC4800C7FD80 /* story1_1.mp3 in Resources */,
+				8E5C029E29353336000DFA1B /* 中国.mp3 in Resources */,
+				8ED35FDC28F03D43000D527F /* LaunchScreen.storyboard in Resources */,
+				8EF67A9A2933AC4800C7FD80 /* story1_3.mp3 in Resources */,
+				8EF67A982933AC4800C7FD80 /* story1_2.mp3 in Resources */,
+				8E5C02C429353801000DFA1B /* 男人.mp3 in Resources */,
+				8E5C02AA29353515000DFA1B /* 韩国人.mp3 in Resources */,
+				8E5C02A8293534EF000DFA1B /* 韩国.mp3 in Resources */,
+				8E5C02BE29353782000DFA1B /* 喝.mp3 in Resources */,
+				8EF67A972933AC4800C7FD80 /* story1_5.mp3 in Resources */,
+				8E5C02AE29353575000DFA1B /* 喜欢.mp3 in Resources */,
+				8E5C02B6293536A3000DFA1B /* 茶.mp3 in Resources */,
+				8E5C02B22935362C000DFA1B /* 女孩.mp3 in Resources */,
+				8E5C02B8293536F9000DFA1B /* 酒.mp3 in Resources */,
+				8E5C02A2293533AD000DFA1B /* 法国.mp3 in Resources */,
+				8E5C02D229353E79000DFA1B /* story2_7.mp3 in Resources */,
+				8E6A7724291F4BC200040BEB /* GoogleService-Info.plist in Resources */,
+				8E5C02CC29353DC5000DFA1B /* story2_4.mp3 in Resources */,
+				8E5C02C2293537CC000DFA1B /* 梨.mp3 in Resources */,
+				8E5C02BA29353722000DFA1B /* 水.mp3 in Resources */,
+				8E5C02D429353EC0000DFA1B /* story2_8.mp3 in Resources */,
+				8E5C02C0293537A8000DFA1B /* 桃.mp3 in Resources */,
+				8E5C02A62935348A000DFA1B /* 美国人.mp3 in Resources */,
+				8E5C02C829353D3B000DFA1B /* story2_2.mp3 in Resources */,
+				8ED35FD928F03D43000D527F /* Assets.xcassets in Resources */,
+				8E5C02C629353CE6000DFA1B /* story2_1.mp3 in Resources */,
+				8E5C02A4293533EE000DFA1B /* 中国人.mp3 in Resources */,
+				8E5C02AC29353543000DFA1B /* 法国人.mp3 in Resources */,
+				8E5C02CE29353E13000DFA1B /* story2_5.mp3 in Resources */,
+				8ED35FD728F03D41000D527F /* Main.storyboard in Resources */,
+				8E5C02BC29353757000DFA1B /* 水果.mp3 in Resources */,
+				8E5C02A02935336E000DFA1B /* 美国.mp3 in Resources */,
+				8E5C02B429353674000DFA1B /* 吃.mp3 in Resources */,
+				8E5C02CA29353D91000DFA1B /* story2_3.mp3 in Resources */,
+				8E5C02D029353E49000DFA1B /* story2_6.mp3 in Resources */,
+				8EF67A992933AC4800C7FD80 /* story1_4.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0890DD9C6F127980D4FAC4BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChineseApp/Pods-ChineseApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChineseApp/Pods-ChineseApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChineseApp/Pods-ChineseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DEFDC2B8B398A0CBFF58AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChineseApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED35FC828F03D41000D527F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E718D48291E4EEF00CAA116 /* QuizResultViewController.swift in Sources */,
+				8E76B9B728FE63720089FCAB /* AllModel.swift in Sources */,
+				8E68BF6E29254B7100192D83 /* MainPageCollectionViewCell.swift in Sources */,
+				8E134EAC28FC5A8800CC32EA /* ChooseCourseViewController.swift in Sources */,
+				8E9B91D22931780700D85E58 /* CardCollectionViewCell.swift in Sources */,
+				8EF67A8D29338B3900C7FD80 /* StoryLyricViewController.swift in Sources */,
+				8EDC0CBE291BF3A700AC4154 /* rootFireBase.swift in Sources */,
+				8EEE6C05292731550045D0CD /* VocabTableViewCell.swift in Sources */,
+				8ED0EDD028F9338900235A21 /* LoginViewController.swift in Sources */,
+				8EA5083F292BBFCB00141739 /* buyLessonViewController.swift in Sources */,
+				8EA50835292B56D400141739 /* TheoryViewController.swift in Sources */,
+				8E3E9C112927832200113DC0 /* shopViewController.swift in Sources */,
+				8EEE6C03292723ED0045D0CD /* ChooseCourseTableViewCell.swift in Sources */,
+				8ED0EDD228F9357600235A21 /* MainPageViewController.swift in Sources */,
+				8ED35FD428F03D41000D527F /* ViewController.swift in Sources */,
+				8EA50837292B571800141739 /* TheoryTableViewCell.swift in Sources */,
+				8E718D46291E4C9500CAA116 /* QuizViewController.swift in Sources */,
+				8EF67A8F29338B8E00C7FD80 /* StoryMainViewController.swift in Sources */,
+				8E44986A2924AC510039C4A9 /* LearnedWordViewController.swift in Sources */,
+				8EE516AE28FDBA5200DA13EF /* PersonalPageViewController.swift in Sources */,
+				8ED0EDCE28F9336B00235A21 /* RegisterViewController.swift in Sources */,
+				8E9B91D0293172FC00D85E58 /* KnowledgeCardViewController.swift in Sources */,
+				8ED35FD028F03D41000D527F /* AppDelegate.swift in Sources */,
+				8E718D44291E4C3F00CAA116 /* VocabularyViewController.swift in Sources */,
+				8EA5083B292BB5D400141739 /* shop2CollectionViewCell.swift in Sources */,
+				8ED35FD228F03D41000D527F /* SceneDelegate.swift in Sources */,
+				8EA50839292B99C800141739 /* ShopCollectionViewCell.swift in Sources */,
+				8EA5083D292BBE1F00141739 /* BuyPremiumViewController.swift in Sources */,
+				8EE516AC28FDBA3C00DA13EF /* ReviewPageViewController.swift in Sources */,
+				8E718D42291E355000CAA116 /* LessonDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ED35FD528F03D41000D527F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED35FD628F03D41000D527F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ED35FDA28F03D43000D527F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED35FDB28F03D43000D527F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED35FDE28F03D43000D527F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ED35FDF28F03D43000D527F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED35FE128F03D43000D527F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E312B15C6F64C9AA1FD6D936 /* Pods-ChineseApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChineseApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chillingo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiimzito.ChineseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ED35FE228F03D43000D527F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5D064A1F718D4B2093B877 /* Pods-ChineseApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChineseApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chillingo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiimzito.ChineseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED35FC728F03D41000D527F /* Build configuration list for PBXProject "ChineseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED35FDE28F03D43000D527F /* Debug */,
+				8ED35FDF28F03D43000D527F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED35FE028F03D43000D527F /* Build configuration list for PBXNativeTarget "ChineseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED35FE128F03D43000D527F /* Debug */,
+				8ED35FE228F03D43000D527F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ED35FC428F03D41000D527F /* Project object */;
+}
