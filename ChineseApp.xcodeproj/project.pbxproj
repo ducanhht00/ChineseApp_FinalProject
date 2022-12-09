@@ -11,6 +11,7 @@
 		8E134EAC28FC5A8800CC32EA /* ChooseCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E134EAB28FC5A8800CC32EA /* ChooseCourseViewController.swift */; };
 		8E3E9C112927832200113DC0 /* shopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3E9C102927832200113DC0 /* shopViewController.swift */; };
 		8E44986A2924AC510039C4A9 /* LearnedWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4498692924AC510039C4A9 /* LearnedWordViewController.swift */; };
+		8E4E8D35293F57FB00C49C02 /* LearnedWordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E8D34293F57FB00C49C02 /* LearnedWordTableViewCell.swift */; };
 		8E5C029E29353336000DFA1B /* 中国.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C029D29353335000DFA1B /* 中国.mp3 */; };
 		8E5C02A02935336E000DFA1B /* 美国.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C029F2935336E000DFA1B /* 美国.mp3 */; };
 		8E5C02A2293533AD000DFA1B /* 法国.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C02A1293533AD000DFA1B /* 法国.mp3 */; };
@@ -45,6 +46,16 @@
 		8E718D46291E4C9500CAA116 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E718D45291E4C9500CAA116 /* QuizViewController.swift */; };
 		8E718D48291E4EEF00CAA116 /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E718D47291E4EEF00CAA116 /* QuizResultViewController.swift */; };
 		8E76B9B728FE63720089FCAB /* AllModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E76B9B628FE63720089FCAB /* AllModel.swift */; };
+		8E7B0E3729371DAD00C8958C /* 听.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E3629371DAD00C8958C /* 听.mp3 */; };
+		8E7B0E3929371E4600C8958C /* 歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E3829371E4600C8958C /* 歌.mp3 */; };
+		8E7B0E3B293790D800C8958C /* 跳.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E3A293790D800C8958C /* 跳.mp3 */; };
+		8E7B0E3D2937910700C8958C /* 书.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E3C2937910700C8958C /* 书.mp3 */; };
+		8E7B0E3F2937918100C8958C /* 报纸.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E3E2937918100C8958C /* 报纸.mp3 */; };
+		8E7B0E41293791AA00C8958C /* 信.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E40293791AA00C8958C /* 信.mp3 */; };
+		8E7B0E43293791C800C8958C /* 看.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E42293791C800C8958C /* 看.mp3 */; };
+		8E7B0E45293791EE00C8958C /* 写.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E44293791EE00C8958C /* 写.mp3 */; };
+		8E7B0E472937921700C8958C /* 唱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E462937921700C8958C /* 唱.mp3 */; };
+		8E7B0E492937924D00C8958C /* 舞.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B0E482937924D00C8958C /* 舞.mp3 */; };
 		8E9B91D0293172FC00D85E58 /* KnowledgeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B91CF293172FC00D85E58 /* KnowledgeCardViewController.swift */; };
 		8E9B91D22931780700D85E58 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B91D12931780700D85E58 /* CardCollectionViewCell.swift */; };
 		8EA50835292B56D400141739 /* TheoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA50834292B56D400141739 /* TheoryViewController.swift */; };
@@ -53,6 +64,7 @@
 		8EA5083B292BB5D400141739 /* shop2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5083A292BB5D400141739 /* shop2CollectionViewCell.swift */; };
 		8EA5083D292BBE1F00141739 /* BuyPremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5083C292BBE1F00141739 /* BuyPremiumViewController.swift */; };
 		8EA5083F292BBFCB00141739 /* buyLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5083E292BBFCB00141739 /* buyLessonViewController.swift */; };
+		8EC495DC29424FD400ECF519 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC495DB29424FD300ECF519 /* GuideViewController.swift */; };
 		8ED0EDCE28F9336B00235A21 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0EDCD28F9336B00235A21 /* RegisterViewController.swift */; };
 		8ED0EDD028F9338900235A21 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0EDCF28F9338900235A21 /* LoginViewController.swift */; };
 		8ED0EDD228F9357600235A21 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0EDD128F9357600235A21 /* MainPageViewController.swift */; };
@@ -81,6 +93,7 @@
 		8E134EAB28FC5A8800CC32EA /* ChooseCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCourseViewController.swift; sourceTree = "<group>"; };
 		8E3E9C102927832200113DC0 /* shopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopViewController.swift; sourceTree = "<group>"; };
 		8E4498692924AC510039C4A9 /* LearnedWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnedWordViewController.swift; sourceTree = "<group>"; };
+		8E4E8D34293F57FB00C49C02 /* LearnedWordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnedWordTableViewCell.swift; sourceTree = "<group>"; };
 		8E5C029D29353335000DFA1B /* 中国.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "中国.mp3"; sourceTree = "<group>"; };
 		8E5C029F2935336E000DFA1B /* 美国.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "美国.mp3"; sourceTree = "<group>"; };
 		8E5C02A1293533AD000DFA1B /* 法国.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "法国.mp3"; sourceTree = "<group>"; };
@@ -115,6 +128,16 @@
 		8E718D45291E4C9500CAA116 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		8E718D47291E4EEF00CAA116 /* QuizResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
 		8E76B9B628FE63720089FCAB /* AllModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllModel.swift; sourceTree = "<group>"; };
+		8E7B0E3629371DAD00C8958C /* 听.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "听.mp3"; sourceTree = "<group>"; };
+		8E7B0E3829371E4600C8958C /* 歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "歌.mp3"; sourceTree = "<group>"; };
+		8E7B0E3A293790D800C8958C /* 跳.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "跳.mp3"; sourceTree = "<group>"; };
+		8E7B0E3C2937910700C8958C /* 书.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "书.mp3"; sourceTree = "<group>"; };
+		8E7B0E3E2937918100C8958C /* 报纸.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "报纸.mp3"; sourceTree = "<group>"; };
+		8E7B0E40293791AA00C8958C /* 信.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "信.mp3"; sourceTree = "<group>"; };
+		8E7B0E42293791C800C8958C /* 看.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "看.mp3"; sourceTree = "<group>"; };
+		8E7B0E44293791EE00C8958C /* 写.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "写.mp3"; sourceTree = "<group>"; };
+		8E7B0E462937921700C8958C /* 唱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "唱.mp3"; sourceTree = "<group>"; };
+		8E7B0E482937924D00C8958C /* 舞.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "舞.mp3"; sourceTree = "<group>"; };
 		8E9B91CF293172FC00D85E58 /* KnowledgeCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeCardViewController.swift; sourceTree = "<group>"; };
 		8E9B91D12931780700D85E58 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		8EA50834292B56D400141739 /* TheoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +146,7 @@
 		8EA5083A292BB5D400141739 /* shop2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop2CollectionViewCell.swift; sourceTree = "<group>"; };
 		8EA5083C292BBE1F00141739 /* BuyPremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyPremiumViewController.swift; sourceTree = "<group>"; };
 		8EA5083E292BBFCB00141739 /* buyLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buyLessonViewController.swift; sourceTree = "<group>"; };
+		8EC495DB29424FD300ECF519 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		8ED0EDCD28F9336B00235A21 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		8ED0EDCF28F9338900235A21 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8ED0EDD128F9357600235A21 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
@@ -221,6 +245,23 @@
 			path = "Basic 2";
 			sourceTree = "<group>";
 		};
+		8E7B0E352936FFC500C8958C /* Basic 3 */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B0E482937924D00C8958C /* 舞.mp3 */,
+				8E7B0E462937921700C8958C /* 唱.mp3 */,
+				8E7B0E44293791EE00C8958C /* 写.mp3 */,
+				8E7B0E42293791C800C8958C /* 看.mp3 */,
+				8E7B0E40293791AA00C8958C /* 信.mp3 */,
+				8E7B0E3E2937918100C8958C /* 报纸.mp3 */,
+				8E7B0E3C2937910700C8958C /* 书.mp3 */,
+				8E7B0E3A293790D800C8958C /* 跳.mp3 */,
+				8E7B0E3829371E4600C8958C /* 歌.mp3 */,
+				8E7B0E3629371DAD00C8958C /* 听.mp3 */,
+			);
+			path = "Basic 3";
+			sourceTree = "<group>";
+		};
 		8ED35FC328F03D41000D527F = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +308,7 @@
 				8EA50838292B99C800141739 /* ShopCollectionViewCell.swift */,
 				8EA5083A292BB5D400141739 /* shop2CollectionViewCell.swift */,
 				8E9B91D12931780700D85E58 /* CardCollectionViewCell.swift */,
+				8E4E8D34293F57FB00C49C02 /* LearnedWordTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,6 +335,7 @@
 				8E9B91CF293172FC00D85E58 /* KnowledgeCardViewController.swift */,
 				8EF67A8C29338B3900C7FD80 /* StoryLyricViewController.swift */,
 				8EF67A8E29338B8E00C7FD80 /* StoryMainViewController.swift */,
+				8EC495DB29424FD300ECF519 /* GuideViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -309,6 +352,7 @@
 		8EF67A902933AC2000C7FD80 /* word */ = {
 			isa = PBXGroup;
 			children = (
+				8E7B0E352936FFC500C8958C /* Basic 3 */,
 				8E5C02AF2935357E000DFA1B /* Basic 1 */,
 				8E5C02B0293535A2000DFA1B /* Basic 2 */,
 			);
@@ -395,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7B0E45293791EE00C8958C /* 写.mp3 in Resources */,
 				8EF67A9B2933AC4800C7FD80 /* story1_1.mp3 in Resources */,
 				8E5C029E29353336000DFA1B /* 中国.mp3 in Resources */,
 				8ED35FDC28F03D43000D527F /* LaunchScreen.storyboard in Resources */,
@@ -403,14 +448,20 @@
 				8E5C02C429353801000DFA1B /* 男人.mp3 in Resources */,
 				8E5C02AA29353515000DFA1B /* 韩国人.mp3 in Resources */,
 				8E5C02A8293534EF000DFA1B /* 韩国.mp3 in Resources */,
+				8E7B0E3729371DAD00C8958C /* 听.mp3 in Resources */,
 				8E5C02BE29353782000DFA1B /* 喝.mp3 in Resources */,
 				8EF67A972933AC4800C7FD80 /* story1_5.mp3 in Resources */,
 				8E5C02AE29353575000DFA1B /* 喜欢.mp3 in Resources */,
+				8E7B0E3B293790D800C8958C /* 跳.mp3 in Resources */,
 				8E5C02B6293536A3000DFA1B /* 茶.mp3 in Resources */,
+				8E7B0E3F2937918100C8958C /* 报纸.mp3 in Resources */,
 				8E5C02B22935362C000DFA1B /* 女孩.mp3 in Resources */,
+				8E7B0E43293791C800C8958C /* 看.mp3 in Resources */,
+				8E7B0E472937921700C8958C /* 唱.mp3 in Resources */,
 				8E5C02B8293536F9000DFA1B /* 酒.mp3 in Resources */,
 				8E5C02A2293533AD000DFA1B /* 法国.mp3 in Resources */,
 				8E5C02D229353E79000DFA1B /* story2_7.mp3 in Resources */,
+				8E7B0E3929371E4600C8958C /* 歌.mp3 in Resources */,
 				8E6A7724291F4BC200040BEB /* GoogleService-Info.plist in Resources */,
 				8E5C02CC29353DC5000DFA1B /* story2_4.mp3 in Resources */,
 				8E5C02C2293537CC000DFA1B /* 梨.mp3 in Resources */,
@@ -421,14 +472,17 @@
 				8E5C02C829353D3B000DFA1B /* story2_2.mp3 in Resources */,
 				8ED35FD928F03D43000D527F /* Assets.xcassets in Resources */,
 				8E5C02C629353CE6000DFA1B /* story2_1.mp3 in Resources */,
+				8E7B0E41293791AA00C8958C /* 信.mp3 in Resources */,
 				8E5C02A4293533EE000DFA1B /* 中国人.mp3 in Resources */,
 				8E5C02AC29353543000DFA1B /* 法国人.mp3 in Resources */,
 				8E5C02CE29353E13000DFA1B /* story2_5.mp3 in Resources */,
 				8ED35FD728F03D41000D527F /* Main.storyboard in Resources */,
+				8E7B0E3D2937910700C8958C /* 书.mp3 in Resources */,
 				8E5C02BC29353757000DFA1B /* 水果.mp3 in Resources */,
 				8E5C02A02935336E000DFA1B /* 美国.mp3 in Resources */,
 				8E5C02B429353674000DFA1B /* 吃.mp3 in Resources */,
 				8E5C02CA29353D91000DFA1B /* story2_3.mp3 in Resources */,
+				8E7B0E492937924D00C8958C /* 舞.mp3 in Resources */,
 				8E5C02D029353E49000DFA1B /* story2_6.mp3 in Resources */,
 				8EF67A992933AC4800C7FD80 /* story1_4.mp3 in Resources */,
 			);
@@ -484,6 +538,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E718D48291E4EEF00CAA116 /* QuizResultViewController.swift in Sources */,
+				8EC495DC29424FD400ECF519 /* GuideViewController.swift in Sources */,
 				8E76B9B728FE63720089FCAB /* AllModel.swift in Sources */,
 				8E68BF6E29254B7100192D83 /* MainPageCollectionViewCell.swift in Sources */,
 				8E134EAC28FC5A8800CC32EA /* ChooseCourseViewController.swift in Sources */,
@@ -511,6 +566,7 @@
 				8ED35FD228F03D41000D527F /* SceneDelegate.swift in Sources */,
 				8EA50839292B99C800141739 /* ShopCollectionViewCell.swift in Sources */,
 				8EA5083D292BBE1F00141739 /* BuyPremiumViewController.swift in Sources */,
+				8E4E8D35293F57FB00C49C02 /* LearnedWordTableViewCell.swift in Sources */,
 				8EE516AC28FDBA3C00DA13EF /* ReviewPageViewController.swift in Sources */,
 				8E718D42291E355000CAA116 /* LessonDetailViewController.swift in Sources */,
 			);

@@ -15,9 +15,7 @@ class StoryLyricViewController: UIViewController {
     var pinyin : String = ""
     var pinyinMutableString = NSMutableAttributedString()
     
-    var wordString:NSString = ""
-    var word : String = ""
-    var wordMutableString = NSMutableAttributedString()
+    
     
     var timer = Timer()
     var pinyinItemList = [PinyinItem]()
@@ -32,7 +30,9 @@ class StoryLyricViewController: UIViewController {
     @IBOutlet weak var meanLabel: UILabel!
     @IBOutlet weak var SentenceImage: UIImageView!
     
-    
+    var wordString:NSString = ""
+    var word : String = ""
+    var wordMutableString = NSMutableAttributedString()
     override func viewDidLoad() {
         super.viewDidLoad()
         let currentStory : String = defaults.object(forKey: "currentStory") as! String 

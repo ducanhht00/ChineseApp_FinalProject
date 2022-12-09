@@ -72,22 +72,22 @@ class QuizViewController: UIViewController {
         optionCButton.setTitle(quizList[a].optionC, for: .normal)
         optionDButton.setTitle(quizList[a].optionD, for: .normal)
         
-//        optionAButton.backgroundColor = .purple
-//        optionBButton.backgroundColor = .purple
-//        optionCButton.backgroundColor = .purple
-//        optionDButton.backgroundColor = .purple
-//        if quizList[a].correctAnswer == quizList[a].optionA {
-//            optionAButton.backgroundColor = .black
-//        }
-//        else if quizList[a].correctAnswer == quizList[a].optionB {
-//            optionBButton.backgroundColor = .black
-//        }
-//        else if quizList[a].correctAnswer == quizList[a].optionC {
-//            optionCButton.backgroundColor = .black
-//        } else {
-//                optionDButton.backgroundColor = .black
-//
-//        }
+        optionAButton.backgroundColor = .purple
+        optionBButton.backgroundColor = .purple
+        optionCButton.backgroundColor = .purple
+        optionDButton.backgroundColor = .purple
+        if quizList[a].correctAnswer == quizList[a].optionA {
+            optionAButton.backgroundColor = .black
+        }
+        else if quizList[a].correctAnswer == quizList[a].optionB {
+            optionBButton.backgroundColor = .black
+        }
+        else if quizList[a].correctAnswer == quizList[a].optionC {
+            optionCButton.backgroundColor = .black
+        } else {
+                optionDButton.backgroundColor = .black
+
+        }
     }
     
     
